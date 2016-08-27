@@ -71,9 +71,7 @@ date;nom;present;pouvoir;secretaire
 2012-09-27;Myriam Traversa;1;;0
 2012-09-27;Karine Esmiol;1;;0
 2012-09-27;Danielle Daube;1;;0
-2012-09-27;Myriam Le Page - DGS;1;;0
 2012-09-27;Louis Derumaux;0;Charles Speth;0
-2012-09-27;donne pouvoir à Charles Speth;0;;0
 2012-09-27;Philippe Perrodo;0;Jean-Pierre Toulouse;0
 2012-09-27;Julien Pons;0;Bernard Bruno;0
 2012-12-14;Daniel Jugy;1;;0
@@ -89,11 +87,8 @@ date;nom;present;pouvoir;secretaire
 2012-12-14;Louis Derumaux;1;;0
 2012-12-14;Julien Pons;1;;0
 2012-12-14;Stéphane Jouve;1;;0
-2012-12-14;Myriam Traversa;0;;0
-2012-12-14;arrivée à 18h30;0;;0
-2012-12-14;ayant donné pouvoir à Odile MOUZARD;0;;0
+2012-12-14;Myriam Traversa;0;Odile MOUZARD;0
 2012-12-14;Karine Esmiol;0;Danielle Daube;0
-2012-12-14;donne pouvoir à Danielle DAUBE;0;;0
 2013-03-15;Daniel Jugy;1;;0
 2013-03-15;Jean-Pierre Toulouse;1;;0
 2013-03-15;Philippe Pouleau;1;;1
@@ -105,27 +100,27 @@ date;nom;present;pouvoir;secretaire
 2013-03-15;Bernard Bruno;1;;0
 2013-03-15;Julien Pons;1;;0
 2013-03-15;Louis Derumaux;1;;0
-2013-03-15;Karine Esmiol à Charles SPETH;0;;0
-2013-03-15;Danielle DAUBE à Odile MOUZARD;0;;0
-2013-03-15;Philippe SCHODET à Bernard BRUNO;0;;0
-2013-03-15;Myriam TRAVERSA à Louis DERUMAUX;0;;0
+2013-03-15;Karine Esmiol;0;Charles SPETH;0
+2013-03-15;Danielle DAUBE;0;Odile MOUZARD;0
+2013-03-15;Philippe SCHODET;0;Bernard BRUNO;0
+2013-03-15;Myriam TRAVERSA;0;Louis DERUMAUX;0
 2013-04-12;Daniel Jugy;1;;0
 2013-04-12;Jean-Pierre Toulouse;1;;0
 2013-04-12;Philippe Pouleau;1;;0
 2013-04-12;Fabienne Salado;1;;0
 2013-04-12;Bernard Bruno;1;;0
 2013-04-12;Louis Derumaux;1;;0
-2013-04-12;Karine Esmiol (à partir de 18h55);1;;0
+2013-04-12;Karine Esmiol;1;;0
 2013-04-12;Stéphane Jouve;1;;0
 2013-04-12;Philippe Perrodo;1;;0
 2013-04-12;Julien Pons;1;;0
-2013-04-12;Philippe SCHODET (à partir de 19h10);1;;0
+2013-04-12;Philippe SCHODET;1;;0
 2013-04-12;Charles Speth;1;;1
-2013-04-12;Myriam Traversa (jusqu’à 19h09);1;;0
+2013-04-12;Myriam Traversa;1;;0
 2013-04-12;Danielle Daube;0;Fabienne Salado;0
-2013-04-12;Philippe Schodet;0;Charles SPETH (jusqu’à 19h10);0
-2013-04-12;Myriam Traversa;0;Philippe POULEAU (à partir de 19h09);0
-2013-04-12;Karine Esmiol;0;Jean-Pierre TOULOUSE (jusqu’à 18h55);0
+2013-04-12;Philippe Schodet;0;Charles SPETH;0
+2013-04-12;Myriam Traversa;0;Philippe POULEAU;0
+2013-04-12;Karine Esmiol;0;Jean-Pierre TOULOUSE;0
 2013-06-19;Daniel Jugy;1;;0
 2013-06-19;Jean-Pierre Toulouse;1;;0
 2013-06-19;Philippe Pouleau;1;;0
@@ -163,8 +158,7 @@ date;nom;present;pouvoir;secretaire
 2013-07-18;Danielle Daube;1;;0
 2013-07-18;Louis Derumaux;1;;0
 2013-07-18;Philippe Perrodo;1;;0
-2013-07-18;Myriam Le Page - DGS;1;;0
-2013-07-18;Jean-Pierre Toulouse absent en début de séance;0;Philippe Pouleau pour toutes les délibérations (est arrivé aux questions diverses);0
+2013-07-18;Jean-Pierre Toulouse;0;Philippe Pouleau;0
 2013-07-18;Karine Esmiol;0;Louis Derumaux;0
 2013-07-18;Myriam Traversa;0;;0
 2013-07-18;Julien Pons;0;;0
@@ -175,18 +169,18 @@ date;nom;present;pouvoir;secretaire
 2013-10-17;Philippe Schodet;1;;0
 2013-10-17;Charles Speth;1;;0
 2013-10-17;Danielle Daube;1;;1
-2013-10-17;Excusés / pouvoirs : Louis Derumaux donne pouvoir à Philippe SCHODET;1;;0
-2013-10-17;Karine ESMIOL donne pouvoir à Danielle DAUBE;1;;0
-2013-10-17;Philippe PERRODO donne pouvoir à Jean-Pierre TOULOUSE;1;;0
-2013-10-17;Fabienne SALADO donne pouvoir à Philippe POULEAU;1;;0
-2013-10-17;Julien PONS donne pouvoir à Bernard BRUNO;1;;0
+2013-10-17;Louis Derumaux;0;Philippe SCHODET;0
+2013-10-17;Karine ESMIOL;0;Danielle DAUBE;0
+2013-10-17;Philippe PERRODO;0;Jean-Pierre TOULOUSE;0
+2013-10-17;Fabienne SALADO;1;Philippe POULEAU;0
+2013-10-17;Julien PONS;1;Bernard BRUNO;0
 2013-10-17;Myriam Traversa;1;;0
 2013-12-19;Daniel Jugy;1;;0
 2013-12-19;Philippe Pouleau;1;;0
 2013-12-19;Fabienne Salado;1;;0
 2013-12-19;Danielle Daube;1;;0
 2013-12-19;Bernard Bruno;1;;0
-2013-12-19;Myriam TRAVERSA (arrivée au début de la délibération n°03);1;;0
+2013-12-19;Myriam TRAVERSA;1;;0
 2013-12-19;Karine Esmiol;1;;0
 2013-12-19;Philippe Perrodo;1;;0
 2013-12-19;Charles Speth;1;;0
@@ -204,9 +198,8 @@ date;nom;present;pouvoir;secretaire
 2014-03-13;Philippe Perrodo;1;;0
 2014-03-13;Julien Pons;1;;0
 2014-03-13;Philippe Schodet;1;;1
-2014-03-13;Excusés / pouvoirs : ;1;;0
-2014-03-13;Charles SPETH donne pouvoir à Fabienne SALADO;1;;0
-2014-03-13;Karine ESMIOL donne pouvoir à Philippe SCHODET;1;;0
+2014-03-13;Charles SPETH;1;Fabienne SALADO;0
+2014-03-13;Karine ESMIOL;1;Philippe SCHODET;0
 2014-03-13;Myriam Traversa;1;;0
 2014-03-28;Daniel Jugy;1;;0
 2014-03-28;Jean-Pierre Toulouse;1;;0
@@ -222,7 +215,7 @@ date;nom;present;pouvoir;secretaire
 2014-03-28;Antonio PEREZ;1;;0
 2014-03-28;Fabienne JOUVE;1;;0
 2014-03-28;Patrice REVAH;1;;0
-2014-03-28;Catherine FONTAINE à Fabienne SALADO;0;;0
+2014-03-28;Catherine FONTAINE;0;Fabienne SALADO;0
 2014-04-30;Daniel Jugy;1;;0
 2014-04-30;Jean-Pierre Toulouse;1;;0
 2014-04-30;Fabienne Salado;1;;0
@@ -252,9 +245,8 @@ date;nom;present;pouvoir;secretaire
 2014-07-18;Antonio PEREZ;1;;0
 2014-07-18;Patrice REVAH;1;;0
 2014-07-18;Charles Speth;1;;0
-2014-07-18;Excusés / pouvoirs : Philippe POULEAU qui a donné pouvoir à Jean-Pierre TOULOUSE;1;;0
-2014-07-18;A partir de 19h25;1;;0
-2014-07-18;Elisabeth PEREIRA a donné pouvoir à Marion JUSTRABO;1;;0
+2014-07-18;Philippe POULEAU;0;Jean-Pierre TOULOUSE;0
+2014-07-18;Elisabeth PEREIRA;0;Marion JUSTRABO;0
 2014-12-05;Daniel Jugy;1;;0
 2014-12-05;Jean-Pierre Toulouse;1;;0
 2014-12-05;Philippe Pouleau;1;;0
@@ -270,7 +262,7 @@ date;nom;present;pouvoir;secretaire
 2014-12-05;Danielle Daube;1;;0
 2014-12-05;Marion JUSTRABO;1;;0
 2014-12-05;Patrice REVAH;0;;0
-2014-12-05;Danielle DAUBE (a donné procuration à Fabienne SALADO;0;;0
+2014-12-05;Danielle DAUBE;0;Fabienne SALADO;0
 2014-12-05;Marion JUSTRABO;0;;0
 2015-01-28;Daniel Jugy;1;;0
 2015-01-28;Jean-Pierre Toulouse;1;;0
