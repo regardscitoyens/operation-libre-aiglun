@@ -18,6 +18,6 @@ Exécuter `bin/convert-to-html.sh`.
 
 ## Présence des conseillers municipaux
 
-Exécuter `bin/extract-presences.py`, qui produit le fichier `data/presences-cm.csv`.
-
-Attention, les données produites ne sont pas parfaitement propres, il faut les nettoyer manuellement.
+1. Exécuter le script `bin/extract-presences.py`, qui produit le fichier `data/presences-cm.csv`.
+2. Nettoyer manuellement le fichier (quelques cas ne sont pas gérés correctement par le script).
+3. Exécuter le script `bin/uniform-names.py` qui uniformise les noms
