@@ -9,5 +9,6 @@ HTML=$BASE/html
 
 for dir in $DIRS; do
 	mkdir -p $HTML/$dir
+	rm $HTML/$dir/*.html
 	soffice --headless --convert-to html --outdir $HTML/$dir $SOURCES/$dir/*.doc $SOURCES/$dir/*.docx
 done
