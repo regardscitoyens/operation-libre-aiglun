@@ -213,65 +213,18 @@
     <div class="row">
         <div class="col-md-12">
             <h2>Relations entre les conseillers de 2012 à 2014</h2>
-            <div id="sigma-first" style="height: 800px;">
+            <div class="text-center">
+                <img src="../images/pouvoirs-network-2012-2014.png" style="vertical-align: middle; max-width: 100%;">
             </div>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-12">
-            <h2>Relations entre les conseillers de 2012 à 2014</h2>
-            <div id="sigma-second" style="height: 800px;">
+            <h2>Relations entre les conseillers de 2014 à 2016</h2>
+            <div class="text-center">
+                <img src="../images/pouvoirs-network-2014-2016.png" style="vertical-align: middle; max-width: 100%;">
             </div>
-            <script>
-                sigma.parsers.json(
-                    'pouvoirs-cm-2014.json',
-                    {
-                        container: 'sigma-second'
-                    },
-                    function(s) {
-                        s.graph.nodes().forEach(function(node, i, a) {
-                            node.x = Math.cos(Math.PI * 2 * i / a.length);
-                            node.y = Math.sin(Math.PI * 2 * i / a.length);
-                            node.color = '#ff0000';
-                            node.size = 1;
-                        });
-
-                        s.startForceAtlas2({
-                            edgeWeightInfluence: 1
-                        });
-                        s.refresh();
-
-                        setTimeout(function() {
-                            s.stopForceAtlas2();
-
-                            sigma.parsers.json(
-                                'pouvoirs-cm-2012.json',
-                                {
-                                    container: 'sigma-first'
-                                },
-                                function(s) {
-                                    s.graph.nodes().forEach(function(node, i, a) {
-                                        node.x = Math.cos(Math.PI * 2 * i / a.length);
-                                        node.y = Math.sin(Math.PI * 2 * i / a.length);
-                                        node.color = '#ff0000';
-                                        node.size = 1;
-                                    });
-
-                                    s.startForceAtlas2({
-                                        edgeWeightInfluence: 1
-                                    });
-                                    s.refresh();
-
-                                    setTimeout(function() {
-                                        s.stopForceAtlas2();
-                                    }, 1000);
-                                }
-                            );
-                        }, 1000);
-                    }
-                );
-            </script>
         </div>
     </div>
 
