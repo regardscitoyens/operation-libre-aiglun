@@ -20,7 +20,7 @@ feminins = [
 
 if __name__ == '__main__':
     for k, v in breaks.iteritems():
-        breaks[k] = {'nom': v, 'byname': {}, 'bydate': []}
+        breaks[k] = {'nom': v, 'byname': {}, 'bydate': [], 'pouvoirs': {}}
 
     with open('data/presences-cm-nettoye.csv', 'r') as infile:
         lastdate = ''
@@ -34,12 +34,22 @@ if __name__ == '__main__':
             date = item[0]
             nom = item[1]
             present = item[2]
+            pouvoir = item[3]
 
             if date in breaks:
                 curbreak = date
 
             if nom not in breaks[curbreak]['byname']:
                 breaks[curbreak]['byname'][nom] = {'presences': 0, 'absences': 0}
+
+            if len(pouvoir):
+                if pouvoir not in breaks[curbreak]['pouvoirs']:
+                    breaks[curbreak]['pouvoirs'][pouvoir] = {}
+
+                if nom not in breaks[curbreak]['pouvoirs'][pouvoir]:
+                    breaks[curbreak]['pouvoirs'][pouvoir][nom] = 1
+                else:
+                    breaks[curbreak]['pouvoirs'][pouvoir][nom] = breaks[curbreak]['pouvoirs'][pouvoir][nom] + 1
 
             if date != lastdate:
                 if curitem_bydate:
@@ -74,3 +84,11 @@ if __name__ == '__main__':
                 sexe = 'F' if nom.split(' ')[0].lower() in feminins else 'M'
                 ligne = '%s;%s;%s;%s\n' % (nom, sexe, valeurs['presences'], valeurs['absences'])
                 outfile.write(ligne.encode('utf-8'))
+
+        with open('data/pouvoirs-cm-%s.csv' % v['nom'], 'w') as outfile:
+            outfile.write('receveur;donneur;nombre\n')
+
+            for receveur, valeurs in v['pouvoirs'].iteritems():
+                for donneur, nombre in valeurs.iteritems():
+                    ligne = '%s;%s;%s\n' % (receveur, donneur, nombre)
+                    outfile.write(ligne.encode('utf-8'))
