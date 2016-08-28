@@ -13,7 +13,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700|Roboto:400italic,700italic,300,700,300italic,400' rel='stylesheet' type='text/css'>
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -47,18 +46,35 @@
         <li class="active"><a href="#presences">Présences aux conseils</a></li>
     </ul>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#depenses">Dépenses</a></li>
-    </ul>
-      <ul class="nav navbar-nav">
         <li class="active"><a href="#demographie">Démographie du conseil</a></li>
     </ul>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#pouvoirs">Affinités au conseil</a></li>
     </ul>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#depenses">Dépenses</a></li>
+    </ul>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#mots">Analyse lexicale</a></li>
+    </ul>
 </div><!--/.nav-collapse -->
 </div>
 </nav>
 <div class="container">
+    <div class="jumbotron">
+        <a name="intro"></a>
+        <h1>Source : des documents peu homogènes</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Exemples de compte-renduds</h2>
+            <div class="text-center">
+                <img src="../images/compterendus.jpg" style="vertical-align: middle;"/>
+            </div>
+        </div>
+    </div>
+<br/>
+
     <div class="jumbotron">
         <a name="presences"></a>
         <h1>La présence aux conseils municipaux d'Aiglun de 2012 à 2016</h1>
@@ -126,32 +142,6 @@
             <h2>Comparaison absences&ndash;présences 2012 à 2014</h2>
             <div class="text-center">
                 <img src="../images/presabs-cm-2012-2014.png" style="vertical-align: middle;">
-            </div>
-        </div>
-    </div>
-
-    <div class="jumbotron">
-        <a name="depenses"></a>
-        <h1>Les dépenses de la commune de 2012 à 2016</h1>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Les dépenses à l'initiative du Maire depuis 2012</h2>
-            <div class="text-center">
-                <img src="../images/depenses_engagees.svg" style="vertical-align: middle; max-width: 100%;">
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Les dépenses d'urbanisme depuis 2012</h2>
-            <div class="col-md-6">
-                <img src="../images/depenses_urbanisme_commune.svg" style="vertical-align: middle; max-width: 100%;">
-            </div>
-            <div class="col-md-6">
-                <img src="../images/depenses_urbanisme_global.svg" style="vertical-align: middle; max-width: 100%;">
             </div>
         </div>
     </div>
@@ -228,9 +218,66 @@
         </div>
     </div>
 
+    <div class="jumbotron">
+        <a name="depenses"></a>
+        <h1>Les dépenses de la commune de 2012 à 2016</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Les dépenses à l'initiative du Maire depuis 2012</h2>
+            <div class="text-center">
+                <img src="../images/depenses_engagees.svg" style="vertical-align: middle; max-width: 100%;">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Les dépenses d'urbanisme depuis 2012</h2>
+            <div class="col-md-6">
+                <img src="../images/depenses_urbanisme_commune.svg" style="vertical-align: middle; max-width: 100%;">
+            </div>
+            <div class="col-md-6">
+                <img src="../images/depenses_urbanisme_global.svg" style="vertical-align: middle; max-width: 100%;">
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <a name="mots"></a>
+        <h1>Analyse lexicale des compte-rendus municipaux</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Les mots clés et leur catégorisation</h2>
+            <div class="text-center">
+                <img src="../images/compterendu_mots.svg" style="vertical-align: middle; max-width: 100%;">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Les catégories dans le temps</h2>
+            <div class="text-center">
+                <img src="../images/compterendu_stream.svg" style="vertical-align: middle; max-width: 100%;">
+            </div>
+        </div>
+    </div>
+
+
     <!-- un peu d'espace à la fin -->
     <div class="jumbotron">
-        <h1>&nbsp;</h1>
+        <h1>Accès aux données</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+		<ul>
+		<li><a href="https://github.com/regardscitoyens/operation-libre-aiglun/tree/master/sources">Les documents originaux</a></li>
+		<li><a href="https://github.com/regardscitoyens/operation-libre-aiglun/tree/master/data">Les données générées</a></li>	
+	</div>
     </div>
 </div>
 </body>
