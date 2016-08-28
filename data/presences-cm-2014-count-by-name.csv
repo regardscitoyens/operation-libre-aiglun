@@ -1,16 +1,16 @@
-nom;presences;absences
-Patrice Revah;14;1
-Sylviane Lauro;10;8
-Fabienne Salado;8;0
-Charles Speth;13;2
-Jean-pierre Toulouse;14;2
-Fabienne Jouve;14;1
-Michel Audran;13;2
-Danielle Daube;11;6
-Elisabeth Pereira;12;4
-Yves Blanchet;14;1
-Daniel Jugy;15;0
-Antonio Perez;13;2
-Marion Justrabo;9;8
-Philippe Pouleau;12;3
-Catherine Fontaine;7;4
+nom;sexe;presences;absences
+Patrice Revah;M;14;1
+Sylviane Lauro;F;10;8
+Fabienne Salado;F;8;0
+Charles Speth;M;13;2
+Jean-pierre Toulouse;M;14;2
+Fabienne Jouve;F;14;1
+Michel Audran;M;13;2
+Danielle Daube;F;11;6
+Elisabeth Pereira;F;12;4
+Yves Blanchet;M;14;1
+Daniel Jugy;M;15;0
+Antonio Perez;M;13;2
+Marion Justrabo;F;9;8
+Philippe Pouleau;M;12;3
+Catherine Fontaine;F;7;4

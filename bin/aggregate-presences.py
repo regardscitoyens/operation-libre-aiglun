@@ -6,6 +6,18 @@ breaks = {
     '2014-03-28': '2014'
 }
 
+feminins = [
+    'fabienne',
+    'myriam',
+    'danielle',
+    'karine',
+    'sylviane',
+    'elisabeth',
+    'catherine',
+    'marion'
+]
+
+
 if __name__ == '__main__':
     for k, v in breaks.iteritems():
         breaks[k] = {'nom': v, 'byname': {}, 'bydate': []}
@@ -56,8 +68,9 @@ if __name__ == '__main__':
                 outfile.write('%s;%s;%s\n' % (item['date'], item['presents'], item['absents']))
 
         with open('data/presences-cm-%s-count-by-name.csv' % v['nom'], 'w') as outfile:
-            outfile.write('nom;presences;absences\n')
+            outfile.write('nom;sexe;presences;absences\n')
 
             for nom, valeurs in v['byname'].iteritems():
-                ligne = '%s;%s;%s\n' % (nom, valeurs['presences'], valeurs['absences'])
+                sexe = 'F' if nom.split(' ')[0].lower() in feminins else 'M'
+                ligne = '%s;%s;%s;%s\n' % (nom, sexe, valeurs['presences'], valeurs['absences'])
                 outfile.write(ligne.encode('utf-8'))
