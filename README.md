@@ -2,15 +2,12 @@
 
 Ce dépôt contient le travail réalisé lors de l'Opération Libre 2016 à Aiglun.
 
-## Contenu du dépôt
+## Contenu principal du dépôt
 
-* `bin` scripts de conversion
 * `sources` fichiers fournis par la municipalité
-* `html` fichiers convertis
-* `tmp` fichiers temporaires utilisés par les scripts de conversion
-* `data` données produites
-* `images` visualisation
-* `restitution` page web de présentation
+* `data` données produites au format CSV
+* `images` graphiques produits à partir des donnée
+* `restitution/index.html` page web de présentation des données produites
 
 ## Reproduction des résultats
 
