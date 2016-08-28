@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import json
+
 breaks = {
     '2012-03-02': '2012',
     '2014-03-28': '2014'
@@ -20,7 +22,7 @@ feminins = [
 
 if __name__ == '__main__':
     for k, v in breaks.iteritems():
-        breaks[k] = {'nom': v, 'byname': {}, 'bydate': [], 'pouvoirs': {}}
+        breaks[k] = {'nom': v, 'byname': {}, 'bydate': [], 'pouvoirs': {}, 'noeuds': set(), 'liens': {}}
 
     with open('data/presences-cm-nettoye.csv', 'r') as infile:
         lastdate = ''
@@ -39,10 +41,14 @@ if __name__ == '__main__':
             if date in breaks:
                 curbreak = date
 
+            breaks[curbreak]['noeuds'].add(nom)
+
             if nom not in breaks[curbreak]['byname']:
                 breaks[curbreak]['byname'][nom] = {'presences': 0, 'absences': 0}
 
             if len(pouvoir):
+                breaks[curbreak]['noeuds'].add(pouvoir)
+
                 if pouvoir not in breaks[curbreak]['pouvoirs']:
                     breaks[curbreak]['pouvoirs'][pouvoir] = {}
 
@@ -50,6 +56,12 @@ if __name__ == '__main__':
                     breaks[curbreak]['pouvoirs'][pouvoir][nom] = 1
                 else:
                     breaks[curbreak]['pouvoirs'][pouvoir][nom] = breaks[curbreak]['pouvoirs'][pouvoir][nom] + 1
+
+                lien = '-'.join(sorted([nom, pouvoir]))
+                if lien not in breaks[curbreak]['liens']:
+                    breaks[curbreak]['liens'][lien] = { 'from': nom, 'to': pouvoir, 'id': lien, 'size': 1 }
+                else:
+                    breaks[curbreak]['liens'][lien]['size'] = breaks[curbreak]['liens'][lien]['size'] + 1
 
             if date != lastdate:
                 if curitem_bydate:
@@ -92,3 +104,11 @@ if __name__ == '__main__':
                 for donneur, nombre in valeurs.iteritems():
                     ligne = '%s;%s;%s\n' % (receveur, donneur, nombre)
                     outfile.write(ligne.encode('utf-8'))
+
+        with open('data/pouvoirs-cm-%s.json' % v['nom'], 'w') as outfile:
+            data = {
+                'nodes': [{ 'id': n, 'label': n, 'size': 1, 'color': '#ff0000'} for n in v['noeuds']],
+                'edges': [{ 'id': l['id'], 'source': l['from'], 'target': l['to'], 'weight': l['size']} for k,l in v['liens'].iteritems()]
+            }
+
+            outfile.write(json.dumps(data))
