@@ -1,0 +1,26 @@
+receveur;donneur;nombre
+Patrice Revah;Charles Speth;1
+Patrice Revah;Elisabeth Pereira;2
+Sylviane Lauro;Marion Justrabo;1
+Sylviane Lauro;Catherine Fontaine;1
+Fabienne Salado;Danielle Daube;2
+Fabienne Salado;Marion Justrabo;1
+Fabienne Salado;Catherine Fontaine;1
+Charles Speth;Danielle Daube;1
+Jean-pierre Toulouse;Sylviane Lauro;1
+Jean-pierre Toulouse;Marion Justrabo;1
+Jean-pierre Toulouse;Philippe Pouleau;3
+Danielle Daube;Fabienne Jouve;1
+Danielle Daube;Catherine Fontaine;1
+Michel Audran;Jean-pierre Toulouse;1
+Michel Audran;Antonio Perez;1
+Michel Audran;Yves Blanchet;1
+Michel Audran;Catherine Fontaine;1
+Yves Blanchet;Michel Audran;2
+Yves Blanchet;Antonio Perez;1
+Yves Blanchet;Marion Justrabo;1
+Elisabeth Pereira;Sylviane Lauro;1
+Marion Justrabo;Danielle Daube;1
+Marion Justrabo;Elisabeth Pereira;1
+Philippe Pouleau;Sylviane Lauro;2
+Philippe Pouleau;Charles Speth;1

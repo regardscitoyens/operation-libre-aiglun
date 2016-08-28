@@ -2,13 +2,12 @@
 
 Ce dépôt contient le travail réalisé lors de l'Opération Libre 2016 à Aiglun.
 
-## Contenu du dépôt
+## Contenu principal du dépôt
 
-* `bin` scripts de conversion
 * `sources` fichiers fournis par la municipalité
-* `html` fichiers convertis
-* `tmp` fichiers temporaires utilisés par les scripts de conversion
-* `data` données produites
+* `data` données produites au format CSV
+* `images` graphiques produits à partir des donnée
+* `restitution/index.html` page web de présentation des données produites
 
 ## Reproduction des résultats
 
@@ -16,8 +15,9 @@ Ce dépôt contient le travail réalisé lors de l'Opération Libre 2016 à Aigl
 
 Exécuter `bin/convert-to-html.sh`.
 
-## Présence des conseillers municipaux
+### Présence des conseillers municipaux
 
-Exécuter `bin/extract-presences.py`, qui produit le fichier `data/presences-cm.csv`.
-
-Attention, les données produites ne sont pas parfaitement propres, il faut les nettoyer manuellement.
+1. Exécuter le script `bin/extract-presences.py`, qui produit le fichier `data/presences-cm.csv`.
+2. Nettoyer manuellement le fichier (quelques cas ne sont pas gérés correctement par le script).
+3. Exécuter le script `bin/uniform-names.py` qui uniformise les noms
+4. Exécuter le script `bin/aggregate-presences.py` pour générer les données agrégées

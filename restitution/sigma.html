@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Analyse des comptes-rendus de conseils municipaux de la commune d'Aiglun de 2012 à 2016">
+    <meta name="author" content="Regards Citoyens">
+    <title>Analyse des comptes-rendus de conseils municipaux de la commune d'Aiglun de 2012 à 2016</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700|Roboto:400italic,700italic,300,700,300italic,400' rel='stylesheet' type='text/css'>
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="js/sigma.min.js"></script>
+    <script src="js/sigma.parsers.json.min.js"></script>
+    <script src="js/sigma.layout.forceAtlas2.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">#OPLAiglun</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#pouvoirs">Affinités au conseil</a></li>
+    </ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+<div class="container">
+    <div class="jumbotron">
+        <a name="pouvoirs"></a>
+        <h1>Affinités au conseil municipal d'Aiglun de 2012 à 2016</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Relations entre les conseillers de 2012 à 2014</h2>
+            <div id="sigma-first" style="height: 800px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Relations entre les conseillers de 2012 à 2014</h2>
+            <div id="sigma-second" style="height: 800px;">
+            </div>
+            <script>
+                sigma.parsers.json(
+                    'pouvoirs-cm-2014.json',
+                    {
+                        container: 'sigma-second'
+                    },
+                    function(s) {
+                        s.graph.nodes().forEach(function(node, i, a) {
+                            node.x = Math.cos(Math.PI * 2 * i / a.length);
+                            node.y = Math.sin(Math.PI * 2 * i / a.length);
+                            node.color = '#ff0000';
+                            node.size = 1;
+                        });
+
+                        s.startForceAtlas2({
+                            edgeWeightInfluence: 1
+                        });
+                        s.refresh();
+
+                        setTimeout(function() {
+                            s.stopForceAtlas2();
+
+                            sigma.parsers.json(
+                                'pouvoirs-cm-2012.json',
+                                {
+                                    container: 'sigma-first'
+                                },
+                                function(s) {
+                                    s.graph.nodes().forEach(function(node, i, a) {
+                                        node.x = Math.cos(Math.PI * 2 * i / a.length);
+                                        node.y = Math.sin(Math.PI * 2 * i / a.length);
+                                        node.color = '#ff0000';
+                                        node.size = 1;
+                                    });
+
+                                    s.startForceAtlas2({
+                                        edgeWeightInfluence: 1
+                                    });
+                                    s.refresh();
+
+                                    setTimeout(function() {
+                                        s.stopForceAtlas2();
+                                    }, 1000);
+                                }
+                            );
+                        }, 1000);
+                    }
+                );
+            </script>
+        </div>
+    </div>
+
+    <!-- un peu d'espace à la fin -->
+    <div class="jumbotron">
+        <h1>&nbsp;</h1>
+    </div>
+</div>
+</body>
+</html>

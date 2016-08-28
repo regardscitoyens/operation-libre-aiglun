@@ -1,6 +1,6 @@
 date;nom;present;pouvoir;secretaire
 2012-03-02;Daniel Jugy;1;;0
-2012-03-02;Jean-Pierre Toulouse;1;;0
+2012-03-02;Jean-pierre Toulouse;1;;0
 2012-03-02;Philippe Pouleau;1;;0
 2012-03-02;Odile Mouzard;1;;0
 2012-03-02;Bernard Bruno;1;;0
@@ -11,11 +11,11 @@ date;nom;present;pouvoir;secretaire
 2012-03-02;Fabienne Salado;0;Odile Mouzard;0
 2012-03-02;Danielle Daube;0;Philippe Pouleau;0
 2012-03-02;Louis Derumaux;0;Philippe Schodet;0
-2012-03-02;Charles Speth;0;Jean-Pierre Toulouse;0
+2012-03-02;Charles Speth;0;Jean-pierre Toulouse;0
 2012-03-02;Myriam Traversa;0;Bernard Bruno;0
 2012-03-02;Karine Esmiol;0;;0
 2012-04-13;Daniel Jugy;1;;0
-2012-04-13;Jean-Pierre Toulouse;1;;0
+2012-04-13;Jean-pierre Toulouse;1;;0
 2012-04-13;Philippe Pouleau;1;;0
 2012-04-13;Odile Mouzard;1;;0
 2012-04-13;Fabienne Salado;1;;0
@@ -30,7 +30,7 @@ date;nom;present;pouvoir;secretaire
 2012-04-13;Julien Pons;0;Philippe Perrodo;0
 2012-04-13;Myriam Traversa;0;Philippe Pouleau;0
 2012-06-15;Daniel Jugy;1;;0
-2012-06-15;Jean-Pierre Toulouse;1;;0
+2012-06-15;Jean-pierre Toulouse;1;;0
 2012-06-15;Odile Mouzard;1;;0
 2012-06-15;Bernard Bruno;1;;0
 2012-06-15;Danielle Daube;1;;0
@@ -40,12 +40,12 @@ date;nom;present;pouvoir;secretaire
 2012-06-15;Philippe Schodet;1;;0
 2012-06-15;Charles Speth;1;;0
 2012-06-15;Louis Derumaux;1;;1
-2012-06-15;Philippe Pouleau;0;Jean-Pierre Toulouse;0
+2012-06-15;Philippe Pouleau;0;Jean-pierre Toulouse;0
 2012-06-15;Fabienne Salado;0;Odile Mouzard;0
 2012-06-15;Myriam Traversa;0;Danielle Daube;0
 2012-06-15;Julien Pons;0;;0
 2012-07-19;Daniel Jugy;1;;0
-2012-07-19;Jean-Pierre Toulouse;1;;0
+2012-07-19;Jean-pierre Toulouse;1;;0
 2012-07-19;Philippe Pouleau;1;;0
 2012-07-19;Odile Mouzard;1;;0
 2012-07-19;Fabienne Salado;1;;1
@@ -58,9 +58,9 @@ date;nom;present;pouvoir;secretaire
 2012-07-19;Julien Pons;1;;0
 2012-07-19;Myriam Traversa;0;Fabienne Salado;0
 2012-07-19;Karine Esmiol;0;;0
-2012-07-19;Stéphane Jouve;0;Jean-Pierre Toulouse;0
+2012-07-19;Stéphane Jouve;0;Jean-pierre Toulouse;0
 2012-09-27;Daniel Jugy;1;;0
-2012-09-27;Jean-Pierre Toulouse;1;;0
+2012-09-27;Jean-pierre Toulouse;1;;0
 2012-09-27;Philippe Pouleau;1;;0
 2012-09-27;Odile Mouzard;1;;1
 2012-09-27;Fabienne Salado;1;;0
@@ -72,25 +72,25 @@ date;nom;present;pouvoir;secretaire
 2012-09-27;Karine Esmiol;1;;0
 2012-09-27;Danielle Daube;1;;0
 2012-09-27;Louis Derumaux;0;Charles Speth;0
-2012-09-27;Philippe Perrodo;0;Jean-Pierre Toulouse;0
+2012-09-27;Philippe Perrodo;0;Jean-pierre Toulouse;0
 2012-09-27;Julien Pons;0;Bernard Bruno;0
 2012-12-14;Daniel Jugy;1;;0
-2012-12-14;Jean-Pierre Toulouse;1;;0
+2012-12-14;Jean-pierre Toulouse;1;;0
 2012-12-14;Philippe Pouleau;1;;0
 2012-12-14;Fabienne Salado;1;;0
 2012-12-14;Odile Mouzard;1;;0
 2012-12-14;Danielle Daube;1;;0
 2012-12-14;Bernard Bruno;1;;0
 2012-12-14;Charles Speth;1;;0
-2012-12-14;Philippe SHODET;1;;0
+2012-12-14;Philippe Schodet;1;;0
 2012-12-14;Philippe Perrodo;1;;1
 2012-12-14;Louis Derumaux;1;;0
 2012-12-14;Julien Pons;1;;0
 2012-12-14;Stéphane Jouve;1;;0
-2012-12-14;Myriam Traversa;0;Odile MOUZARD;0
+2012-12-14;Myriam Traversa;0;Odile Mouzard;0
 2012-12-14;Karine Esmiol;0;Danielle Daube;0
 2013-03-15;Daniel Jugy;1;;0
-2013-03-15;Jean-Pierre Toulouse;1;;0
+2013-03-15;Jean-pierre Toulouse;1;;0
 2013-03-15;Philippe Pouleau;1;;1
 2013-03-15;Odile Mouzard;1;;0
 2013-03-15;Fabienne Salado;1;;0
@@ -100,12 +100,12 @@ date;nom;present;pouvoir;secretaire
 2013-03-15;Bernard Bruno;1;;0
 2013-03-15;Julien Pons;1;;0
 2013-03-15;Louis Derumaux;1;;0
-2013-03-15;Karine Esmiol;0;Charles SPETH;0
-2013-03-15;Danielle DAUBE;0;Odile MOUZARD;0
-2013-03-15;Philippe SCHODET;0;Bernard BRUNO;0
-2013-03-15;Myriam TRAVERSA;0;Louis DERUMAUX;0
+2013-03-15;Karine Esmiol;0;Charles Speth;0
+2013-03-15;Danielle Daube;0;Odile Mouzard;0
+2013-03-15;Philippe Schodet;0;Bernard Bruno;0
+2013-03-15;Myriam Traversa;0;Louis Derumaux;0
 2013-04-12;Daniel Jugy;1;;0
-2013-04-12;Jean-Pierre Toulouse;1;;0
+2013-04-12;Jean-pierre Toulouse;1;;0
 2013-04-12;Philippe Pouleau;1;;0
 2013-04-12;Fabienne Salado;1;;0
 2013-04-12;Bernard Bruno;1;;0
@@ -114,15 +114,15 @@ date;nom;present;pouvoir;secretaire
 2013-04-12;Stéphane Jouve;1;;0
 2013-04-12;Philippe Perrodo;1;;0
 2013-04-12;Julien Pons;1;;0
-2013-04-12;Philippe SCHODET;1;;0
+2013-04-12;Philippe Schodet;1;;0
 2013-04-12;Charles Speth;1;;1
 2013-04-12;Myriam Traversa;1;;0
 2013-04-12;Danielle Daube;0;Fabienne Salado;0
-2013-04-12;Philippe Schodet;0;Charles SPETH;0
-2013-04-12;Myriam Traversa;0;Philippe POULEAU;0
-2013-04-12;Karine Esmiol;0;Jean-Pierre TOULOUSE;0
+2013-04-12;Philippe Schodet;0;Charles Speth;0
+2013-04-12;Myriam Traversa;0;Philippe Pouleau;0
+2013-04-12;Karine Esmiol;0;Jean-pierre Toulouse;0
 2013-06-19;Daniel Jugy;1;;0
-2013-06-19;Jean-Pierre Toulouse;1;;0
+2013-06-19;Jean-pierre Toulouse;1;;0
 2013-06-19;Philippe Pouleau;1;;0
 2013-06-19;Charles Speth;1;;0
 2013-06-19;Philippe Perrodo;1;;0
@@ -130,12 +130,12 @@ date;nom;present;pouvoir;secretaire
 2013-06-19;Philippe Schodet;1;;1
 2013-06-19;Karine Esmiol;1;;0
 2013-06-19;Danielle Daube;1;;0
-2013-06-19;Retard Bernard BRUNO;0;Philippe Schodet;0
+2013-06-19;Bernard Bruno;0;Philippe Schodet;0
 2013-06-19;Myriam Traversa;0;Philippe Perrodo;0
 2013-06-19;Fabienne Salado;0;Philippe Pouleau;0
 2013-06-19;Julien Pons;0;Danielle Daube;0
 2013-06-30;Daniel Jugy;1;;0
-2013-06-30;Jean-Pierre Toulouse;1;;0
+2013-06-30;Jean-pierre Toulouse;1;;0
 2013-06-30;Fabienne Salado;1;;0
 2013-06-30;Philippe Pouleau;1;;0
 2013-06-30;Bernard Bruno;1;;0
@@ -149,7 +149,7 @@ date;nom;present;pouvoir;secretaire
 2013-06-30;Karine Esmiol;0;;0
 2013-06-30;Myriam Traversa;0;;0
 2013-07-18;Daniel Jugy;1;;0
-2013-07-18;Jean-Pierre Toulouse;1;;0
+2013-07-18;Jean-pierre Toulouse;1;;0
 2013-07-18;Philippe Pouleau;1;;0
 2013-07-18;Fabienne Salado;1;;1
 2013-07-18;Charles Speth;1;;0
@@ -158,38 +158,38 @@ date;nom;present;pouvoir;secretaire
 2013-07-18;Danielle Daube;1;;0
 2013-07-18;Louis Derumaux;1;;0
 2013-07-18;Philippe Perrodo;1;;0
-2013-07-18;Jean-Pierre Toulouse;0;Philippe Pouleau;0
+2013-07-18;Jean-pierre Toulouse;0;Philippe Pouleau;0
 2013-07-18;Karine Esmiol;0;Louis Derumaux;0
 2013-07-18;Myriam Traversa;0;;0
 2013-07-18;Julien Pons;0;;0
 2013-10-17;Daniel Jugy;1;;0
-2013-10-17;Jean-Pierre Toulouse;1;;0
+2013-10-17;Jean-pierre Toulouse;1;;0
 2013-10-17;Philippe Pouleau;1;;0
 2013-10-17;Bernard Bruno;1;;0
 2013-10-17;Philippe Schodet;1;;0
 2013-10-17;Charles Speth;1;;0
 2013-10-17;Danielle Daube;1;;1
-2013-10-17;Louis Derumaux;0;Philippe SCHODET;0
-2013-10-17;Karine ESMIOL;0;Danielle DAUBE;0
-2013-10-17;Philippe PERRODO;0;Jean-Pierre TOULOUSE;0
-2013-10-17;Fabienne SALADO;1;Philippe POULEAU;0
-2013-10-17;Julien PONS;1;Bernard BRUNO;0
+2013-10-17;Louis Derumaux;0;Philippe Schodet;0
+2013-10-17;Karine Esmiol;0;Danielle Daube;0
+2013-10-17;Philippe Perrodo;0;Jean-pierre Toulouse;0
+2013-10-17;Fabienne Salado;1;Philippe Pouleau;0
+2013-10-17;Julien Pons;1;Bernard Bruno;0
 2013-10-17;Myriam Traversa;1;;0
 2013-12-19;Daniel Jugy;1;;0
 2013-12-19;Philippe Pouleau;1;;0
 2013-12-19;Fabienne Salado;1;;0
 2013-12-19;Danielle Daube;1;;0
 2013-12-19;Bernard Bruno;1;;0
-2013-12-19;Myriam TRAVERSA;1;;0
+2013-12-19;Myriam Traversa;1;;0
 2013-12-19;Karine Esmiol;1;;0
 2013-12-19;Philippe Perrodo;1;;0
 2013-12-19;Charles Speth;1;;0
 2013-12-19;Julien Pons;1;;1
-2013-12-19;Philippe SHODET;0;;0
-2013-12-19;Jean-Pierre Toulouse;0;;0
+2013-12-19;Philippe Schodet;0;;0
+2013-12-19;Jean-pierre Toulouse;0;;0
 2013-12-19;Louis Derumaux;0;;0
 2014-03-13;Daniel Jugy;1;;0
-2014-03-13;Jean-Pierre Toulouse;1;;0
+2014-03-13;Jean-pierre Toulouse;1;;0
 2014-03-13;Philippe Pouleau;1;;0
 2014-03-13;Fabienne Salado;1;;0
 2014-03-13;Bernard Bruno;1;;0
@@ -198,229 +198,229 @@ date;nom;present;pouvoir;secretaire
 2014-03-13;Philippe Perrodo;1;;0
 2014-03-13;Julien Pons;1;;0
 2014-03-13;Philippe Schodet;1;;1
-2014-03-13;Charles SPETH;1;Fabienne SALADO;0
-2014-03-13;Karine ESMIOL;1;Philippe SCHODET;0
+2014-03-13;Charles Speth;1;Fabienne Salado;0
+2014-03-13;Karine Esmiol;1;Philippe Schodet;0
 2014-03-13;Myriam Traversa;1;;0
 2014-03-28;Daniel Jugy;1;;0
-2014-03-28;Jean-Pierre Toulouse;1;;0
+2014-03-28;Jean-pierre Toulouse;1;;0
 2014-03-28;Philippe Pouleau;1;;0
 2014-03-28;Fabienne Salado;1;;0
-2014-03-28;Sylviane LAURO;1;;0
+2014-03-28;Sylviane Lauro;1;;0
 2014-03-28;Danielle Daube;1;;1
 2014-03-28;Charles Speth;1;;0
-2014-03-28;Michel AUDRAN;1;;0
-2014-03-28;Elisabeth PEREIRA;1;;0
-2014-03-28;Marion JUSTRABO;1;;1
-2014-03-28;Yves BLANCHET;1;;0
-2014-03-28;Antonio PEREZ;1;;0
-2014-03-28;Fabienne JOUVE;1;;0
-2014-03-28;Patrice REVAH;1;;0
-2014-03-28;Catherine FONTAINE;0;Fabienne SALADO;0
+2014-03-28;Michel Audran;1;;0
+2014-03-28;Elisabeth Pereira;1;;0
+2014-03-28;Marion Justrabo;1;;1
+2014-03-28;Yves Blanchet;1;;0
+2014-03-28;Antonio Perez;1;;0
+2014-03-28;Fabienne Jouve;1;;0
+2014-03-28;Patrice Revah;1;;0
+2014-03-28;Catherine Fontaine;0;Fabienne Salado;0
 2014-04-30;Daniel Jugy;1;;0
-2014-04-30;Jean-Pierre Toulouse;1;;0
+2014-04-30;Jean-pierre Toulouse;1;;0
 2014-04-30;Fabienne Salado;1;;0
 2014-04-30;Philippe Pouleau;1;;0
-2014-04-30;Sylviane LAURO;1;;0
-2014-04-30;Michel AUDRAN;1;;0
-2014-04-30;Yves BLANCHET;1;;0
+2014-04-30;Sylviane Lauro;1;;0
+2014-04-30;Michel Audran;1;;0
+2014-04-30;Yves Blanchet;1;;0
 2014-04-30;Danielle Daube;1;;0
-2014-04-30;Catherine FONTAINE;1;;0
-2014-04-30;Fabienne JOUVE;1;;0
-2014-04-30;Marion JUSTRABO;1;;0
-2014-04-30;Elisabeth PEREIRA;1;;0
-2014-04-30;Antonio PEREZ;1;;0
-2014-04-30;Patrice REVAH;1;;0
+2014-04-30;Catherine Fontaine;1;;0
+2014-04-30;Fabienne Jouve;1;;0
+2014-04-30;Marion Justrabo;1;;0
+2014-04-30;Elisabeth Pereira;1;;0
+2014-04-30;Antonio Perez;1;;0
+2014-04-30;Patrice Revah;1;;0
 2014-04-30;Charles Speth;1;;1
 2014-07-18;Daniel Jugy;1;;0
-2014-07-18;Jean-Pierre Toulouse;1;;1
+2014-07-18;Jean-pierre Toulouse;1;;1
 2014-07-18;Fabienne Salado;1;;0
-2014-07-18;Sylviane LAURO;1;;0
-2014-07-18;Michel AUDRAN;1;;0
-2014-07-18;Yves BLANCHET;1;;0
+2014-07-18;Sylviane Lauro;1;;0
+2014-07-18;Michel Audran;1;;0
+2014-07-18;Yves Blanchet;1;;0
 2014-07-18;Danielle Daube;1;;0
-2014-07-18;Catherine FONTAINE;1;;0
-2014-07-18;Fabienne JOUVE;1;;0
-2014-07-18;Marion JUSTRABO;1;;0
-2014-07-18;Elisabeth PEREIRA;1;;0
-2014-07-18;Antonio PEREZ;1;;0
-2014-07-18;Patrice REVAH;1;;0
+2014-07-18;Catherine Fontaine;1;;0
+2014-07-18;Fabienne Jouve;1;;0
+2014-07-18;Marion Justrabo;1;;0
+2014-07-18;Elisabeth Pereira;1;;0
+2014-07-18;Antonio Perez;1;;0
+2014-07-18;Patrice Revah;1;;0
 2014-07-18;Charles Speth;1;;0
-2014-07-18;Philippe POULEAU;0;Jean-Pierre TOULOUSE;0
-2014-07-18;Elisabeth PEREIRA;0;Marion JUSTRABO;0
+2014-07-18;Philippe Pouleau;0;Jean-pierre Toulouse;0
+2014-07-18;Elisabeth Pereira;0;Marion Justrabo;0
 2014-12-05;Daniel Jugy;1;;0
-2014-12-05;Jean-Pierre Toulouse;1;;0
+2014-12-05;Jean-pierre Toulouse;1;;0
 2014-12-05;Philippe Pouleau;1;;0
 2014-12-05;Fabienne Salado;1;;0
-2014-12-05;Sylviane LAURO;1;;0
-2014-12-05;Yves BLANCHET;1;;0
-2014-12-05;Michel AUDRAN;1;;0
-2014-12-05;Catherine FONTAINE;1;;1
-2014-12-05;Antonio PEREZ;1;;0
+2014-12-05;Sylviane Lauro;1;;0
+2014-12-05;Yves Blanchet;1;;0
+2014-12-05;Michel Audran;1;;0
+2014-12-05;Catherine Fontaine;1;;1
+2014-12-05;Antonio Perez;1;;0
 2014-12-05;Charles Speth;1;;0
-2014-12-05;Fabienne JOUVE;1;;0
-2014-12-05;Elisabeth PEREIRA;1;;0
+2014-12-05;Fabienne Jouve;1;;0
+2014-12-05;Elisabeth Pereira;1;;0
 2014-12-05;Danielle Daube;1;;0
-2014-12-05;Marion JUSTRABO;1;;0
-2014-12-05;Patrice REVAH;0;;0
-2014-12-05;Danielle DAUBE;0;Fabienne SALADO;0
-2014-12-05;Marion JUSTRABO;0;;0
+2014-12-05;Marion Justrabo;1;;0
+2014-12-05;Patrice Revah;0;;0
+2014-12-05;Danielle Daube;0;Fabienne Salado;0
+2014-12-05;Marion Justrabo;0;;0
 2015-01-28;Daniel Jugy;1;;0
-2015-01-28;Jean-Pierre Toulouse;1;;0
+2015-01-28;Jean-pierre Toulouse;1;;0
 2015-01-28;Philippe Pouleau;1;;0
 2015-01-28;Fabienne Salado;1;;0
-2015-01-28;Sylviane LAURO;1;;0
-2015-01-28;Yves BLANCHET;1;;0
-2015-01-28;Michel AUDRAN;1;;0
-2015-01-28;Catherine FONTAINE;1;;0
-2015-01-28;Antonio PEREZ;1;;0
+2015-01-28;Sylviane Lauro;1;;0
+2015-01-28;Yves Blanchet;1;;0
+2015-01-28;Michel Audran;1;;0
+2015-01-28;Catherine Fontaine;1;;0
+2015-01-28;Antonio Perez;1;;0
 2015-01-28;Charles Speth;1;;0
-2015-01-28;Fabienne JOUVE;1;;0
-2015-01-28;Elisabeth PEREIRA;1;;0
+2015-01-28;Fabienne Jouve;1;;0
+2015-01-28;Elisabeth Pereira;1;;0
 2015-01-28;Danielle Daube;1;;0
-2015-01-28;Marion JUSTRABO;1;;0
-2015-01-28;Patrice REVAH;1;;0
+2015-01-28;Marion Justrabo;1;;0
+2015-01-28;Patrice Revah;1;;0
 2015-04-10;Daniel Jugy;1;;0
-2015-04-10;Jean-Pierre Toulouse;1;;0
+2015-04-10;Jean-pierre Toulouse;1;;0
 2015-04-10;Fabienne Salado;1;;0
 2015-04-10;Philippe Pouleau;1;;0
-2015-04-10;Sylviane LAURO;1;;0
-2015-04-10;Michel AUDRAN;1;;0
+2015-04-10;Sylviane Lauro;1;;0
+2015-04-10;Michel Audran;1;;0
 2015-04-10;Danielle Daube;1;;0
-2015-04-10;Fabienne JOUVE;1;;0
-2015-04-10;Marion JUSTRABO;1;;0
-2015-04-10;Elisabeth PEREIRA;1;;0
-2015-04-10;Antonio PEREZ;1;;0
-2015-04-10;Patrice REVAH;1;;0
+2015-04-10;Fabienne Jouve;1;;0
+2015-04-10;Marion Justrabo;1;;0
+2015-04-10;Elisabeth Pereira;1;;0
+2015-04-10;Antonio Perez;1;;0
+2015-04-10;Patrice Revah;1;;0
 2015-04-10;Charles Speth;1;;1
-2015-04-10;Yves BLANCHET;0;Michel AUDRAN;0
-2015-04-10;Catherine FONTAINE;0;Sylviane LAURO;0
+2015-04-10;Yves Blanchet;0;Michel Audran;0
+2015-04-10;Catherine Fontaine;0;Sylviane Lauro;0
 2015-06-08;Daniel Jugy;1;;0
-2015-06-08;Jean-Pierre Toulouse;1;;0
-2015-06-08;Sylviane LAURO;1;;0
-2015-06-08;Michel AUDRAN;1;;0
-2015-06-08;Yves BLANCHET;1;;0
+2015-06-08;Jean-pierre Toulouse;1;;0
+2015-06-08;Sylviane Lauro;1;;0
+2015-06-08;Michel Audran;1;;0
+2015-06-08;Yves Blanchet;1;;0
 2015-06-08;Danielle Daube;1;;0
-2015-06-08;Fabienne JOUVE;1;;0
-2015-06-08;Marion JUSTRABO;1;;0
-2015-06-08;Elisabeth PEREIRA;1;;0
-2015-06-08;Antonio PEREZ;1;;0
-2015-06-08;Patrice REVAH;1;;1
-2015-06-08;Philippe Pouleau;0;Jean-Pierre Toulouse;0
-2015-06-08;Catherine FONTAINE;0;Michel AUDRAN;0
-2015-06-08;Charles Speth;0;Patrice REVAH;0
+2015-06-08;Fabienne Jouve;1;;0
+2015-06-08;Marion Justrabo;1;;0
+2015-06-08;Elisabeth Pereira;1;;0
+2015-06-08;Antonio Perez;1;;0
+2015-06-08;Patrice Revah;1;;1
+2015-06-08;Philippe Pouleau;0;Jean-pierre Toulouse;0
+2015-06-08;Catherine Fontaine;0;Michel Audran;0
+2015-06-08;Charles Speth;0;Patrice Revah;0
 2015-07-24;Daniel Jugy;1;;0
-2015-07-24;Jean-Pierre Toulouse;1;;0
-2015-07-24;Sylviane LAURO;1;;0
-2015-07-24;Michel AUDRAN;1;;1
-2015-07-24;Yves BLANCHET;1;;0
+2015-07-24;Jean-pierre Toulouse;1;;0
+2015-07-24;Sylviane Lauro;1;;0
+2015-07-24;Michel Audran;1;;1
+2015-07-24;Yves Blanchet;1;;0
 2015-07-24;Danielle Daube;1;;0
-2015-07-24;Patrice REVAH;1;;0
+2015-07-24;Patrice Revah;1;;0
 2015-07-24;Philippe Pouleau;1;;0
-2015-07-24;Catherine FONTAINE;1;;0
+2015-07-24;Catherine Fontaine;1;;0
 2015-07-24;Charles Speth;1;;0
-2015-07-24;Antonio PEREZ;0;Yves BLANCHET;0
-2015-07-24;Marion JUSTRABO;0;Sylvianne LAURO;0
-2015-07-24;Fabienne JOUVE;0;Danielle Daube;0
-2015-07-24;Elisabeth PEREIRA;0;Patrice REVAH;0
+2015-07-24;Antonio Perez;0;Yves Blanchet;0
+2015-07-24;Marion Justrabo;0;Sylviane Lauro;0
+2015-07-24;Fabienne Jouve;0;Danielle Daube;0
+2015-07-24;Elisabeth Pereira;0;Patrice Revah;0
 2015-09-11;Daniel Jugy;1;;0
-2015-09-11;Jean-Pierre Toulouse;1;;0
+2015-09-11;Jean-pierre Toulouse;1;;0
 2015-09-11;Philippe Pouleau;1;;0
-2015-09-11;Yves BLANCHET;1;;0
-2015-09-11;Antonio PEREZ;1;;0
-2015-09-11;Patrice REVAH;1;;0
+2015-09-11;Yves Blanchet;1;;0
+2015-09-11;Antonio Perez;1;;0
+2015-09-11;Patrice Revah;1;;0
 2015-09-11;Danielle Daube;1;;0
-2015-09-11;Fabienne JOUVE;1;;0
-2015-09-11;Elisabeth PEREIRA;1;;0
-2015-09-11;Marion JUSTRABO;0;;0
-2015-09-11;Sylviane LAURO;0;Jean-Pierre Toulouse;0
-2015-09-11;Michel AUDRAN;0;Yves BLANCHET;0
-2015-09-11;Catherine FONTAINE;0;Danielle Daube;0
+2015-09-11;Fabienne Jouve;1;;0
+2015-09-11;Elisabeth Pereira;1;;0
+2015-09-11;Marion Justrabo;0;;0
+2015-09-11;Sylviane Lauro;0;Jean-pierre Toulouse;0
+2015-09-11;Michel Audran;0;Yves Blanchet;0
+2015-09-11;Catherine Fontaine;0;Danielle Daube;0
 2015-09-11;Charles Speth;0;Philippe Pouleau;0
 2015-11-04;Daniel Jugy;1;;0
-2015-11-04;Jean-Pierre Toulouse;1;;0
+2015-11-04;Jean-pierre Toulouse;1;;0
 2015-11-04;Philippe Pouleau;1;;0
-2015-11-04;Michel AUDRAN;1;;0
-2015-11-04;Yves BLANCHET;1;;0
-2015-11-04;Antonio PEREZ;1;;0
-2015-11-04;Patrice REVAH;1;;0
+2015-11-04;Michel Audran;1;;0
+2015-11-04;Yves Blanchet;1;;0
+2015-11-04;Antonio Perez;1;;0
+2015-11-04;Patrice Revah;1;;0
 2015-11-04;Charles Speth;1;;0
-2015-11-04;Fabienne JOUVE;1;;0
-2015-11-04;Marion JUSTRABO;1;;0
-2015-11-04;Elisabeth PEREIRA;1;;0
-2015-11-04;Sylviane LAURO;0;;0
+2015-11-04;Fabienne Jouve;1;;0
+2015-11-04;Marion Justrabo;1;;0
+2015-11-04;Elisabeth Pereira;1;;0
+2015-11-04;Sylviane Lauro;0;;0
 2015-11-04;Danielle Daube;0;;0
-2015-11-04;Danielle Daube;0;Marion JUSTRABO;0
-2015-11-04;Sylviane LAURO;0;Elisabeth PEREIRA;0
+2015-11-04;Danielle Daube;0;Marion Justrabo;0
+2015-11-04;Sylviane Lauro;0;Elisabeth Pereira;0
 2015-12-11;Daniel Jugy;1;;0
-2015-12-11;Jean-Pierre Toulouse;1;;0
+2015-12-11;Jean-pierre Toulouse;1;;0
 2015-12-11;Philippe Pouleau;1;;0
-2015-12-11;Michel AUDRAN;1;;0
-2015-12-11;Yves BLANCHET;1;;0
-2015-12-11;Antonio PEREZ;1;;0
-2015-12-11;Patrice REVAH;1;;0
+2015-12-11;Michel Audran;1;;0
+2015-12-11;Yves Blanchet;1;;0
+2015-12-11;Antonio Perez;1;;0
+2015-12-11;Patrice Revah;1;;0
 2015-12-11;Charles Speth;1;;0
-2015-12-11;Fabienne JOUVE;1;;0
-2015-12-11;Marion JUSTRABO;1;;0
-2015-12-11;Elisabeth PEREIRA;1;;0
-2015-12-11;Sylviane LAURO;0;;0
-2015-12-11;Sylviane LAURO;0;Philippe Pouleau;0
+2015-12-11;Fabienne Jouve;1;;0
+2015-12-11;Marion Justrabo;1;;0
+2015-12-11;Elisabeth Pereira;1;;0
+2015-12-11;Sylviane Lauro;0;;0
+2015-12-11;Sylviane Lauro;0;Philippe Pouleau;0
 2016-02-26;Daniel Jugy;1;;0
 2016-02-26;Philippe Pouleau;1;;0
-2016-02-26;Michel AUDRAN;1;;0
-2016-02-26;Yves BLANCHET;1;;0
-2016-02-26;Antonio PEREZ;1;;0
-2016-02-26;Patrice REVAH;1;;0
+2016-02-26;Michel Audran;1;;0
+2016-02-26;Yves Blanchet;1;;0
+2016-02-26;Antonio Perez;1;;0
+2016-02-26;Patrice Revah;1;;0
 2016-02-26;Charles Speth;1;;0
 2016-02-26;Danielle Daube;1;;0
-2016-02-26;Fabienne JOUVE;1;;0
-2016-02-26;Elisabeth PEREIRA;1;;0
-2016-02-26;Sylviane LAURO;0;;0
-2016-02-26;Marion JUSTRABO;0;;0
-2016-02-26;Jean-Pierre Toulouse;0;;0
-2016-02-26;Sylviane LAURO;0;Philippe Pouleau;0
-2016-02-26;Marion JUSTRABO;0;Yves BLANCHET;0
-2016-02-26;Jean-Pierre Toulouse;0;Michel AUDRAN;0
+2016-02-26;Fabienne Jouve;1;;0
+2016-02-26;Elisabeth Pereira;1;;0
+2016-02-26;Sylviane Lauro;0;;0
+2016-02-26;Marion Justrabo;0;;0
+2016-02-26;Jean-pierre Toulouse;0;;0
+2016-02-26;Sylviane Lauro;0;Philippe Pouleau;0
+2016-02-26;Marion Justrabo;0;Yves Blanchet;0
+2016-02-26;Jean-pierre Toulouse;0;Michel Audran;0
 2016-04-08;Daniel Jugy;1;;0
-2016-04-08;Jean-Pierre Toulouse;1;;0
+2016-04-08;Jean-pierre Toulouse;1;;0
 2016-04-08;Philippe Pouleau;1;;0
-2016-04-08;Michel AUDRAN;1;;0
-2016-04-08;Yves BLANCHET;1;;0
-2016-04-08;Fabienne JOUVE;1;;0
-2016-04-08;Patrice REVAH;1;;0
+2016-04-08;Michel Audran;1;;0
+2016-04-08;Yves Blanchet;1;;0
+2016-04-08;Fabienne Jouve;1;;0
+2016-04-08;Patrice Revah;1;;0
 2016-04-08;Charles Speth;1;;1
-2016-04-08;Antonio PEREZ;0;Michel AUDRAN;0
-2016-04-08;Marion JUSTRABO;0;Jean-Pierre Toulouse;0
-2016-04-08;Elisabeth PEREIRA;0;Patrice REVAH;0
+2016-04-08;Antonio Perez;0;Michel Audran;0
+2016-04-08;Marion Justrabo;0;Jean-pierre Toulouse;0
+2016-04-08;Elisabeth Pereira;0;Patrice Revah;0
 2016-04-08;Danielle Daube;0;Charles Speth;0
-2016-04-08;Sylviane LAURO;0;;0
+2016-04-08;Sylviane Lauro;0;;0
 2016-06-20;Daniel Jugy;1;;0
-2016-06-20;Jean-Pierre Toulouse;1;;0
+2016-06-20;Jean-pierre Toulouse;1;;0
 2016-06-20;Fabienne Salado;1;;1
-2016-06-20;Sylviane LAURO;1;;0
-2016-06-20;Yves BLANCHET;1;;0
+2016-06-20;Sylviane Lauro;1;;0
+2016-06-20;Yves Blanchet;1;;0
 2016-06-20;Danielle Daube;1;;0
-2016-06-20;Catherine FONTAINE;1;;0
-2016-06-20;Fabienne JOUVE;1;;0
-2016-06-20;Elisabeth PEREIRA;1;;0
-2016-06-20;Antonio PEREZ;1;;0
-2016-06-20;Patrice REVAH;1;;0
+2016-06-20;Catherine Fontaine;1;;0
+2016-06-20;Fabienne Jouve;1;;0
+2016-06-20;Elisabeth Pereira;1;;0
+2016-06-20;Antonio Perez;1;;0
+2016-06-20;Patrice Revah;1;;0
 2016-06-20;Charles Speth;1;;0
-2016-06-20;Marion JUSTRABO;0;Fabienne Salado;0
-2016-06-20;Philippe Pouleau;0;Jean-Pierre Toulouse;0
-2016-06-20;Michel AUDRAN;0;Yves BLANCHET;0
+2016-06-20;Marion Justrabo;0;Fabienne Salado;0
+2016-06-20;Philippe Pouleau;0;Jean-pierre Toulouse;0
+2016-06-20;Michel Audran;0;Yves Blanchet;0
 2016-09-26;Daniel Jugy;1;;0
-2016-09-26;Jean-Pierre Toulouse;1;;0
+2016-09-26;Jean-pierre Toulouse;1;;0
 2016-09-26;Philippe Pouleau;1;;0
 2016-09-26;Fabienne Salado;1;;0
-2016-09-26;Sylviane LAURO;1;;0
-2016-09-26;Yves BLANCHET;1;;0
-2016-09-26;Michel AUDRAN;1;;0
-2016-09-26;Patrice REVAH;1;;0
-2016-09-26;Catherine FONTAINE;1;;0
-2016-09-26;Antonio PEREZ;1;;0
+2016-09-26;Sylviane Lauro;1;;0
+2016-09-26;Yves Blanchet;1;;0
+2016-09-26;Michel Audran;1;;0
+2016-09-26;Patrice Revah;1;;0
+2016-09-26;Catherine Fontaine;1;;0
+2016-09-26;Antonio Perez;1;;0
 2016-09-26;Charles Speth;1;;0
-2016-09-26;Fabienne JOUVE;1;;1
+2016-09-26;Fabienne Jouve;1;;1
 2016-09-26;Danielle Daube;0;;0
-2016-09-26;Marion JUSTRABO;0;;0
-2016-09-26;Elisabeth PEREIRA;0;;0
+2016-09-26;Marion Justrabo;0;;0
+2016-09-26;Elisabeth Pereira;0;;0
 2016-09-26;Danielle Daube;0;Fabienne Salado;0
